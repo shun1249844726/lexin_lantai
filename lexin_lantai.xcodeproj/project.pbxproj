@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05092BAE1CBBA6FA00D0F142 /* Recent+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05092BAC1CBBA6FA00D0F142 /* Recent+CoreDataProperties.swift */; };
+		05092BAF1CBBA6FA00D0F142 /* Recent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05092BAD1CBBA6FA00D0F142 /* Recent.swift */; };
+		050AA5DE1D49955800002B48 /* InportFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050AA5DD1D49955800002B48 /* InportFile.swift */; };
+		050AEDAC1C8A835900D91ACE /* ExcutePlanConfigVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050AEDAB1C8A835900D91ACE /* ExcutePlanConfigVC.swift */; };
+		050AEDB01C8AAEFC00D91ACE /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050AEDAF1C8AAEFC00D91ACE /* ViewControllerExtension.swift */; };
+		050AEDB31C8AC97F00D91ACE /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050AEDB21C8AC97F00D91ACE /* Checkbox.swift */; };
+		051C6C291D4B2F9D0054B203 /* EditRoadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051C6C281D4B2F9D0054B203 /* EditRoadCell.swift */; };
+		052266971C59CF280080E804 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052266961C59CF280080E804 /* AppDelegate.swift */; };
+		052266991C59CF280080E804 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052266981C59CF280080E804 /* ViewController.swift */; };
+		0522669C1C59CF280080E804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0522669A1C59CF280080E804 /* Main.storyboard */; };
+		052266A11C59CF280080E804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052266A01C59CF280080E804 /* Assets.xcassets */; };
+		052266A41C59CF280080E804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052266A21C59CF280080E804 /* LaunchScreen.storyboard */; };
+		052266AF1C59CF280080E804 /* lexin_lantaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052266AE1C59CF280080E804 /* lexin_lantaiTests.swift */; };
+		052266BA1C59CF280080E804 /* lexin_lantaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052266B91C59CF280080E804 /* lexin_lantaiUITests.swift */; };
+		05242EC81D434BD60088947C /* EditRoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05242EC71D434BD60088947C /* EditRoad.swift */; };
+		05276C041C86DA2400052894 /* OneRoadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05276C031C86DA2400052894 /* OneRoadCell.swift */; };
+		05276C1D1C89666600052894 /* Plans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05276C1B1C89666600052894 /* Plans.swift */; };
+		05276C1E1C89666600052894 /* Plans+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05276C1C1C89666600052894 /* Plans+CoreDataProperties.swift */; };
+		055162C31CB7827C003C8FEF /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055162C21CB7827C003C8FEF /* StringUtils.swift */; };
+		056D541C1D0CF800007DE84C /* PswVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D541B1D0CF800007DE84C /* PswVC.swift */; };
+		056D541E1D0CF82B007DE84C /* SetPassWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D541D1D0CF82B007DE84C /* SetPassWordView.swift */; };
+		056D54201D0CFE84007DE84C /* ChangePswVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D541F1D0CFE84007DE84C /* ChangePswVC.swift */; };
+		056D54221D0D3828007DE84C /* SoftwareInofVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D54211D0D3828007DE84C /* SoftwareInofVC.swift */; };
+		057B0A9A1CA232F70096E01C /* debug in Resources */ = {isa = PBXBuildFile; fileRef = 057B0A991CA232F70096E01C /* debug */; };
+		058CBA001C9A50F100CC9507 /* IPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 058CB9FA1C9A50F100CC9507 /* IPAddress.m */; };
+		058CBA011C9A50F100CC9507 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058CB9FC1C9A50F100CC9507 /* Socket.swift */; };
+		058CBA021C9A50F100CC9507 /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058CB9FD1C9A50F100CC9507 /* TCPClient.swift */; };
+		058CBA031C9A50F100CC9507 /* TCPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058CB9FE1C9A50F100CC9507 /* TCPServer.swift */; };
+		058CBA041C9A50F100CC9507 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 058CB9FF1C9A50F100CC9507 /* ytcpsocket.c */; };
+		0595D24D1C71D98F00E7A641 /* lexin_lantai.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0595D24B1C71D98F00E7A641 /* lexin_lantai.xcdatamodeld */; };
+		05E143E01C9F892A00D4CA4F /* CRC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E143DF1C9F892A00D4CA4F /* CRC.swift */; };
+		05F9AD9A1C8148F9009DA519 /* dataModle .swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F9AD991C8148F8009DA519 /* dataModle .swift */; };
+		05F9AD9C1C81493B009DA519 /* LanTaiRoads.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 05F9AD9B1C81493B009DA519 /* LanTaiRoads.geojson */; };
+		05F9ADA41C84246D009DA519 /* ParasConfigVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F9ADA31C84246D009DA519 /* ParasConfigVC.swift */; };
+		05F9ADA61C8425B2009DA519 /* OfflineMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F9ADA51C8425B2009DA519 /* OfflineMapVC.swift */; };
+		05F9ADA81C843557009DA519 /* PlanManagerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F9ADA71C843557009DA519 /* PlanManagerVC.swift */; };
+		05F9EF461C717CC100B04910 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F9EF3F1C717CC100B04910 /* BaiduMapAPI_Base.framework */; };
+		05F9EF471C717CC100B04910 /* BaiduMapAPI_Cloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F9EF401C717CC100B04910 /* BaiduMapAPI_Cloud.framework */; };
+		05F9EF481C717CC100B04910 /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F9EF411C717CC100B04910 /* BaiduMapAPI_Location.framework */; };
+		05F9EF491C717CC100B04910 /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F9EF421C717CC100B04910 /* BaiduMapAPI_Map.framework */; };
+		05F9EF4A1C717CC100B04910 /* BaiduMapAPI_Radar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F9EF431C717CC100B04910 /* BaiduMapAPI_Radar.framework */; };
+		05F9EF4B1C717CC100B04910 /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F9EF441C717CC100B04910 /* BaiduMapAPI_Search.framework */; };
+		05F9EF4C1C717CC100B04910 /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F9EF451C717CC100B04910 /* BaiduMapAPI_Utils.framework */; };
+		05F9EF4E1C717CE100B04910 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F9EF4D1C717CE100B04910 /* CoreLocation.framework */; };
+		05F9EF501C717CF200B04910 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F9EF4F1C717CF200B04910 /* QuartzCore.framework */; };
+		05F9EF521C717CFF00B04910 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F9EF511C717CFF00B04910 /* OpenGLES.framework */; };
+		05F9EF541C717D1F00B04910 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F9EF531C717D1F00B04910 /* SystemConfiguration.framework */; };
+		05F9EF561C717D2B00B04910 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F9EF551C717D2B00B04910 /* CoreGraphics.framework */; };
+		05F9EF581C717D3600B04910 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F9EF571C717D3600B04910 /* Security.framework */; };
+		05F9EF5A1C717D4200B04910 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F9EF591C717D4200B04910 /* libsqlite3.0.tbd */; };
+		05F9EF5C1C717D4C00B04910 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F9EF5B1C717D4C00B04910 /* CoreTelephony.framework */; };
+		05F9EF5E1C717D5A00B04910 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F9EF5D1C717D5A00B04910 /* libstdc++.6.0.9.tbd */; };
+		05F9EF601C717DD700B04910 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 05F9EF5F1C717DD700B04910 /* mapapi.bundle */; };
+		05F9EF631C717F6600B04910 /* RoadMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F9EF621C717F6600B04910 /* RoadMapVC.swift */; };
+		05FC44BE1C8D86B500D7DCAB /* ExcutePlanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FC44BD1C8D86B500D7DCAB /* ExcutePlanVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		052266AB1C59CF280080E804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0522668B1C59CF280080E804 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 052266921C59CF280080E804;
+			remoteInfo = lexin_lantai;
+		};
+		052266B61C59CF280080E804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0522668B1C59CF280080E804 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 052266921C59CF280080E804;
+			remoteInfo = lexin_lantai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05092BAC1CBBA6FA00D0F142 /* Recent+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recent+CoreDataProperties.swift"; path = "CRC/Recent+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		05092BAD1CBBA6FA00D0F142 /* Recent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Recent.swift; path = CRC/Recent.swift; sourceTree = "<group>"; };
+		050AA5DD1D49955800002B48 /* InportFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InportFile.swift; path = lexin_lantai/Source/InportFile.swift; sourceTree = "<group>"; };
+		050AEDAB1C8A835900D91ACE /* ExcutePlanConfigVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExcutePlanConfigVC.swift; path = lexin_lantai/Source/ExcutePlanConfigVC.swift; sourceTree = "<group>"; };
+		050AEDAF1C8AAEFC00D91ACE /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerExtension.swift; path = lexin_lantai/Source/ViewControllerExtension.swift; sourceTree = "<group>"; };
+		050AEDB21C8AC97F00D91ACE /* Checkbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Checkbox.swift; path = lexin_lantai/Source/Checkbox.swift; sourceTree = "<group>"; };
+		051C6C281D4B2F9D0054B203 /* EditRoadCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditRoadCell.swift; path = lexin_lantai/Source/EditRoadCell.swift; sourceTree = "<group>"; };
+		052266931C59CF280080E804 /* lexin_lantai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lexin_lantai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		052266961C59CF280080E804 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = lexin_lantai/AppDelegate.swift; sourceTree = "<group>"; };
+		052266981C59CF280080E804 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = lexin_lantai/ViewController.swift; sourceTree = "<group>"; };
+		0522669B1C59CF280080E804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		052266A01C59CF280080E804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		052266A31C59CF280080E804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		052266A51C59CF280080E804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052266AA1C59CF280080E804 /* lexin_lantaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lexin_lantaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		052266AE1C59CF280080E804 /* lexin_lantaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lexin_lantaiTests.swift; sourceTree = "<group>"; };
+		052266B01C59CF280080E804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052266B51C59CF280080E804 /* lexin_lantaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lexin_lantaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		052266B91C59CF280080E804 /* lexin_lantaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lexin_lantaiUITests.swift; sourceTree = "<group>"; };
+		052266BB1C59CF280080E804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05242EC71D434BD60088947C /* EditRoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditRoad.swift; path = lexin_lantai/Source/EditRoad.swift; sourceTree = "<group>"; };
+		05276C031C86DA2400052894 /* OneRoadCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OneRoadCell.swift; path = lexin_lantai/Source/OneRoadCell.swift; sourceTree = "<group>"; };
+		05276C1B1C89666600052894 /* Plans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plans.swift; sourceTree = "<group>"; };
+		05276C1C1C89666600052894 /* Plans+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Plans+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		055162C21CB7827C003C8FEF /* StringUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringUtils.swift; path = lexin_lantai/Source/StringUtils.swift; sourceTree = "<group>"; };
+		056D541B1D0CF800007DE84C /* PswVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PswVC.swift; path = lexin_lantai/Source/PswVC.swift; sourceTree = "<group>"; };
+		056D541D1D0CF82B007DE84C /* SetPassWordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetPassWordView.swift; path = lexin_lantai/Source/SetPassWordView.swift; sourceTree = "<group>"; };
+		056D541F1D0CFE84007DE84C /* ChangePswVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangePswVC.swift; path = lexin_lantai/Source/ChangePswVC.swift; sourceTree = "<group>"; };
+		056D54211D0D3828007DE84C /* SoftwareInofVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoftwareInofVC.swift; path = lexin_lantai/Source/SoftwareInofVC.swift; sourceTree = "<group>"; };
+		057B0A991CA232F70096E01C /* debug */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = debug; path = Source/debug; sourceTree = "<group>"; };
+		058CB9F91C9A50F100CC9507 /* IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IPAddress.h; path = lexin_lantai/Socket/IPAddress.h; sourceTree = "<group>"; };
+		058CB9FA1C9A50F100CC9507 /* IPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IPAddress.m; path = lexin_lantai/Socket/IPAddress.m; sourceTree = "<group>"; };
+		058CB9FB1C9A50F100CC9507 /* Network-swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Network-swift.h"; path = "lexin_lantai/Socket/Network-swift.h"; sourceTree = "<group>"; };
+		058CB9FC1C9A50F100CC9507 /* Socket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = lexin_lantai/Socket/Socket.swift; sourceTree = "<group>"; };
+		058CB9FD1C9A50F100CC9507 /* TCPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TCPClient.swift; path = lexin_lantai/Socket/TCPClient.swift; sourceTree = "<group>"; };
+		058CB9FE1C9A50F100CC9507 /* TCPServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TCPServer.swift; path = lexin_lantai/Socket/TCPServer.swift; sourceTree = "<group>"; };
+		058CB9FF1C9A50F100CC9507 /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ytcpsocket.c; path = lexin_lantai/Socket/ytcpsocket.c; sourceTree = "<group>"; };
+		0595D24C1C71D98F00E7A641 /* lexin_lantai.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lexin_lantai.xcdatamodel; sourceTree = "<group>"; };
+		05E143DF1C9F892A00D4CA4F /* CRC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CRC.swift; path = lexin_lantai/CRC/CRC.swift; sourceTree = "<group>"; };
+		05F9AD991C8148F8009DA519 /* dataModle .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "dataModle .swift"; sourceTree = "<group>"; };
+		05F9AD9B1C81493B009DA519 /* LanTaiRoads.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LanTaiRoads.geojson; sourceTree = "<group>"; };
+		05F9ADA31C84246D009DA519 /* ParasConfigVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParasConfigVC.swift; path = lexin_lantai/Source/ParasConfigVC.swift; sourceTree = "<group>"; };
+		05F9ADA51C8425B2009DA519 /* OfflineMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OfflineMapVC.swift; path = lexin_lantai/Source/OfflineMapVC.swift; sourceTree = "<group>"; };
+		05F9ADA71C843557009DA519 /* PlanManagerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlanManagerVC.swift; path = lexin_lantai/Source/PlanManagerVC.swift; sourceTree = "<group>"; };
+		05F9EF3F1C717CC100B04910 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = BaiduMapAPI/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		05F9EF401C717CC100B04910 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Cloud.framework; path = BaiduMapAPI/BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		05F9EF411C717CC100B04910 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Location.framework; path = BaiduMapAPI/BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
+		05F9EF421C717CC100B04910 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = BaiduMapAPI/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		05F9EF431C717CC100B04910 /* BaiduMapAPI_Radar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Radar.framework; path = BaiduMapAPI/BaiduMapAPI_Radar.framework; sourceTree = "<group>"; };
+		05F9EF441C717CC100B04910 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = BaiduMapAPI/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		05F9EF451C717CC100B04910 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Utils.framework; path = BaiduMapAPI/BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		05F9EF4D1C717CE100B04910 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		05F9EF4F1C717CF200B04910 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		05F9EF511C717CFF00B04910 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		05F9EF531C717D1F00B04910 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		05F9EF551C717D2B00B04910 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05F9EF571C717D3600B04910 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		05F9EF591C717D4200B04910 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		05F9EF5B1C717D4C00B04910 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		05F9EF5D1C717D5A00B04910 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		05F9EF5F1C717DD700B04910 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapAPI/BaiduMapAPI_Map.framework/Resources/mapapi.bundle; sourceTree = "<group>"; };
+		05F9EF611C717E2300B04910 /* BMKSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BMKSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		05F9EF621C717F6600B04910 /* RoadMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoadMapVC.swift; path = lexin_lantai/Source/RoadMapVC.swift; sourceTree = "<group>"; };
+		05FC44BD1C8D86B500D7DCAB /* ExcutePlanVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExcutePlanVC.swift; path = lexin_lantai/Source/ExcutePlanVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		052266901C59CF280080E804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F9EF5E1C717D5A00B04910 /* libstdc++.6.0.9.tbd in Frameworks */,
+				05F9EF5C1C717D4C00B04910 /* CoreTelephony.framework in Frameworks */,
+				05F9EF5A1C717D4200B04910 /* libsqlite3.0.tbd in Frameworks */,
+				05F9EF581C717D3600B04910 /* Security.framework in Frameworks */,
+				05F9EF561C717D2B00B04910 /* CoreGraphics.framework in Frameworks */,
+				05F9EF541C717D1F00B04910 /* SystemConfiguration.framework in Frameworks */,
+				05F9EF521C717CFF00B04910 /* OpenGLES.framework in Frameworks */,
+				05F9EF501C717CF200B04910 /* QuartzCore.framework in Frameworks */,
+				05F9EF4E1C717CE100B04910 /* CoreLocation.framework in Frameworks */,
+				05F9EF461C717CC100B04910 /* BaiduMapAPI_Base.framework in Frameworks */,
+				05F9EF471C717CC100B04910 /* BaiduMapAPI_Cloud.framework in Frameworks */,
+				05F9EF481C717CC100B04910 /* BaiduMapAPI_Location.framework in Frameworks */,
+				05F9EF491C717CC100B04910 /* BaiduMapAPI_Map.framework in Frameworks */,
+				05F9EF4A1C717CC100B04910 /* BaiduMapAPI_Radar.framework in Frameworks */,
+				05F9EF4B1C717CC100B04910 /* BaiduMapAPI_Search.framework in Frameworks */,
+				05F9EF4C1C717CC100B04910 /* BaiduMapAPI_Utils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052266A71C59CF280080E804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052266B21C59CF280080E804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		050AEDB11C8AC95E00D91ACE /* Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				050AEDB21C8AC97F00D91ACE /* Checkbox.swift */,
+			);
+			name = Checkbox;
+			sourceTree = "<group>";
+		};
+		0522668A1C59CF280080E804 = {
+			isa = PBXGroup;
+			children = (
+				052266951C59CF280080E804 /* lexin_lantai */,
+				052266AD1C59CF280080E804 /* lexin_lantaiTests */,
+				052266B81C59CF280080E804 /* lexin_lantaiUITests */,
+				052266941C59CF280080E804 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		052266941C59CF280080E804 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				052266931C59CF280080E804 /* lexin_lantai.app */,
+				052266AA1C59CF280080E804 /* lexin_lantaiTests.xctest */,
+				052266B51C59CF280080E804 /* lexin_lantaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		052266951C59CF280080E804 /* lexin_lantai */ = {
+			isa = PBXGroup;
+			children = (
+				05092BAD1CBBA6FA00D0F142 /* Recent.swift */,
+				05092BAC1CBBA6FA00D0F142 /* Recent+CoreDataProperties.swift */,
+				05276C1B1C89666600052894 /* Plans.swift */,
+				05276C1C1C89666600052894 /* Plans+CoreDataProperties.swift */,
+				05F9EF3D1C71793800B04910 /* Source */,
+				0595D2521C71DC7400E7A641 /* Model */,
+				05F9EF3C1C71792400B04910 /* BaiduMapApi */,
+				05F9EF611C717E2300B04910 /* BMKSwiftDemo-Bridging-Header.h */,
+				052266A01C59CF280080E804 /* Assets.xcassets */,
+				0522669A1C59CF280080E804 /* Main.storyboard */,
+				052266A21C59CF280080E804 /* LaunchScreen.storyboard */,
+				052266A51C59CF280080E804 /* Info.plist */,
+				057B0A991CA232F70096E01C /* debug */,
+			);
+			path = lexin_lantai;
+			sourceTree = "<group>";
+		};
+		052266AD1C59CF280080E804 /* lexin_lantaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				052266AE1C59CF280080E804 /* lexin_lantaiTests.swift */,
+				052266B01C59CF280080E804 /* Info.plist */,
+			);
+			path = lexin_lantaiTests;
+			sourceTree = "<group>";
+		};
+		052266B81C59CF280080E804 /* lexin_lantaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				052266B91C59CF280080E804 /* lexin_lantaiUITests.swift */,
+				052266BB1C59CF280080E804 /* Info.plist */,
+			);
+			path = lexin_lantaiUITests;
+			sourceTree = "<group>";
+		};
+		058CB9F81C9A4A0000CC9507 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				058CB9F91C9A50F100CC9507 /* IPAddress.h */,
+				058CB9FA1C9A50F100CC9507 /* IPAddress.m */,
+				058CB9FB1C9A50F100CC9507 /* Network-swift.h */,
+				058CB9FC1C9A50F100CC9507 /* Socket.swift */,
+				058CB9FD1C9A50F100CC9507 /* TCPClient.swift */,
+				058CB9FE1C9A50F100CC9507 /* TCPServer.swift */,
+				058CB9FF1C9A50F100CC9507 /* ytcpsocket.c */,
+			);
+			name = Socket;
+			sourceTree = "<group>";
+		};
+		0595D2521C71DC7400E7A641 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0595D24B1C71D98F00E7A641 /* lexin_lantai.xcdatamodeld */,
+				05F9AD991C8148F8009DA519 /* dataModle .swift */,
+				05F9AD9B1C81493B009DA519 /* LanTaiRoads.geojson */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		05E143DE1C9F88FD00D4CA4F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				05E143DF1C9F892A00D4CA4F /* CRC.swift */,
+				055162C21CB7827C003C8FEF /* StringUtils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		05F9EF3C1C71792400B04910 /* BaiduMapApi */ = {
+			isa = PBXGroup;
+			children = (
+				05F9EF3E1C717A4600B04910 /* Resources */,
+				05F9EF5D1C717D5A00B04910 /* libstdc++.6.0.9.tbd */,
+				05F9EF5B1C717D4C00B04910 /* CoreTelephony.framework */,
+				05F9EF591C717D4200B04910 /* libsqlite3.0.tbd */,
+				05F9EF571C717D3600B04910 /* Security.framework */,
+				05F9EF551C717D2B00B04910 /* CoreGraphics.framework */,
+				05F9EF531C717D1F00B04910 /* SystemConfiguration.framework */,
+				05F9EF511C717CFF00B04910 /* OpenGLES.framework */,
+				05F9EF4F1C717CF200B04910 /* QuartzCore.framework */,
+				05F9EF4D1C717CE100B04910 /* CoreLocation.framework */,
+				05F9EF3F1C717CC100B04910 /* BaiduMapAPI_Base.framework */,
+				05F9EF401C717CC100B04910 /* BaiduMapAPI_Cloud.framework */,
+				05F9EF411C717CC100B04910 /* BaiduMapAPI_Location.framework */,
+				05F9EF421C717CC100B04910 /* BaiduMapAPI_Map.framework */,
+				05F9EF431C717CC100B04910 /* BaiduMapAPI_Radar.framework */,
+				05F9EF441C717CC100B04910 /* BaiduMapAPI_Search.framework */,
+				05F9EF451C717CC100B04910 /* BaiduMapAPI_Utils.framework */,
+			);
+			name = BaiduMapApi;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		05F9EF3D1C71793800B04910 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				052266981C59CF280080E804 /* ViewController.swift */,
+				056D541B1D0CF800007DE84C /* PswVC.swift */,
+				050AA5DD1D49955800002B48 /* InportFile.swift */,
+				056D541D1D0CF82B007DE84C /* SetPassWordView.swift */,
+				05F9ADA71C843557009DA519 /* PlanManagerVC.swift */,
+				051C6C281D4B2F9D0054B203 /* EditRoadCell.swift */,
+				05242EC71D434BD60088947C /* EditRoad.swift */,
+				056D54211D0D3828007DE84C /* SoftwareInofVC.swift */,
+				056D541F1D0CFE84007DE84C /* ChangePswVC.swift */,
+				05276C031C86DA2400052894 /* OneRoadCell.swift */,
+				052266961C59CF280080E804 /* AppDelegate.swift */,
+				05F9EF621C717F6600B04910 /* RoadMapVC.swift */,
+				05F9ADA31C84246D009DA519 /* ParasConfigVC.swift */,
+				05F9ADA51C8425B2009DA519 /* OfflineMapVC.swift */,
+				05FC44BD1C8D86B500D7DCAB /* ExcutePlanVC.swift */,
+				050AEDAB1C8A835900D91ACE /* ExcutePlanConfigVC.swift */,
+				050AEDAF1C8AAEFC00D91ACE /* ViewControllerExtension.swift */,
+				05E143DE1C9F88FD00D4CA4F /* Utils */,
+				058CB9F81C9A4A0000CC9507 /* Socket */,
+				050AEDB11C8AC95E00D91ACE /* Checkbox */,
+			);
+			name = Source;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		05F9EF3E1C717A4600B04910 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05F9EF5F1C717DD700B04910 /* mapapi.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		052266921C59CF280080E804 /* lexin_lantai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052266BE1C59CF280080E804 /* Build configuration list for PBXNativeTarget "lexin_lantai" */;
+			buildPhases = (
+				0522668F1C59CF280080E804 /* Sources */,
+				052266901C59CF280080E804 /* Frameworks */,
+				052266911C59CF280080E804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lexin_lantai;
+			productName = lexin_lantai;
+			productReference = 052266931C59CF280080E804 /* lexin_lantai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		052266A91C59CF280080E804 /* lexin_lantaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052266C11C59CF280080E804 /* Build configuration list for PBXNativeTarget "lexin_lantaiTests" */;
+			buildPhases = (
+				052266A61C59CF280080E804 /* Sources */,
+				052266A71C59CF280080E804 /* Frameworks */,
+				052266A81C59CF280080E804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052266AC1C59CF280080E804 /* PBXTargetDependency */,
+			);
+			name = lexin_lantaiTests;
+			productName = lexin_lantaiTests;
+			productReference = 052266AA1C59CF280080E804 /* lexin_lantaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		052266B41C59CF280080E804 /* lexin_lantaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052266C41C59CF280080E804 /* Build configuration list for PBXNativeTarget "lexin_lantaiUITests" */;
+			buildPhases = (
+				052266B11C59CF280080E804 /* Sources */,
+				052266B21C59CF280080E804 /* Frameworks */,
+				052266B31C59CF280080E804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052266B71C59CF280080E804 /* PBXTargetDependency */,
+			);
+			name = lexin_lantaiUITests;
+			productName = lexin_lantaiUITests;
+			productReference = 052266B51C59CF280080E804 /* lexin_lantaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0522668B1C59CF280080E804 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "徐顺";
+				TargetAttributes = {
+					052266921C59CF280080E804 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = XF5HH4D9NT;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					052266A91C59CF280080E804 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6HE4LQM3JZ;
+						TestTargetID = 052266921C59CF280080E804;
+					};
+					052266B41C59CF280080E804 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6HE4LQM3JZ;
+						TestTargetID = 052266921C59CF280080E804;
+					};
+				};
+			};
+			buildConfigurationList = 0522668E1C59CF280080E804 /* Build configuration list for PBXProject "lexin_lantai" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0522668A1C59CF280080E804;
+			productRefGroup = 052266941C59CF280080E804 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				052266921C59CF280080E804 /* lexin_lantai */,
+				052266A91C59CF280080E804 /* lexin_lantaiTests */,
+				052266B41C59CF280080E804 /* lexin_lantaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		052266911C59CF280080E804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057B0A9A1CA232F70096E01C /* debug in Resources */,
+				05F9AD9C1C81493B009DA519 /* LanTaiRoads.geojson in Resources */,
+				052266A41C59CF280080E804 /* LaunchScreen.storyboard in Resources */,
+				05F9EF601C717DD700B04910 /* mapapi.bundle in Resources */,
+				052266A11C59CF280080E804 /* Assets.xcassets in Resources */,
+				0522669C1C59CF280080E804 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052266A81C59CF280080E804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052266B31C59CF280080E804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0522668F1C59CF280080E804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05276C1E1C89666600052894 /* Plans+CoreDataProperties.swift in Sources */,
+				05F9EF631C717F6600B04910 /* RoadMapVC.swift in Sources */,
+				058CBA021C9A50F100CC9507 /* TCPClient.swift in Sources */,
+				050AEDB01C8AAEFC00D91ACE /* ViewControllerExtension.swift in Sources */,
+				058CBA031C9A50F100CC9507 /* TCPServer.swift in Sources */,
+				05276C041C86DA2400052894 /* OneRoadCell.swift in Sources */,
+				05242EC81D434BD60088947C /* EditRoad.swift in Sources */,
+				051C6C291D4B2F9D0054B203 /* EditRoadCell.swift in Sources */,
+				058CBA011C9A50F100CC9507 /* Socket.swift in Sources */,
+				056D54221D0D3828007DE84C /* SoftwareInofVC.swift in Sources */,
+				050AEDAC1C8A835900D91ACE /* ExcutePlanConfigVC.swift in Sources */,
+				056D54201D0CFE84007DE84C /* ChangePswVC.swift in Sources */,
+				056D541C1D0CF800007DE84C /* PswVC.swift in Sources */,
+				055162C31CB7827C003C8FEF /* StringUtils.swift in Sources */,
+				056D541E1D0CF82B007DE84C /* SetPassWordView.swift in Sources */,
+				058CBA001C9A50F100CC9507 /* IPAddress.m in Sources */,
+				050AA5DE1D49955800002B48 /* InportFile.swift in Sources */,
+				0595D24D1C71D98F00E7A641 /* lexin_lantai.xcdatamodeld in Sources */,
+				05F9AD9A1C8148F9009DA519 /* dataModle .swift in Sources */,
+				05E143E01C9F892A00D4CA4F /* CRC.swift in Sources */,
+				05F9ADA61C8425B2009DA519 /* OfflineMapVC.swift in Sources */,
+				052266991C59CF280080E804 /* ViewController.swift in Sources */,
+				05FC44BE1C8D86B500D7DCAB /* ExcutePlanVC.swift in Sources */,
+				05092BAF1CBBA6FA00D0F142 /* Recent.swift in Sources */,
+				05092BAE1CBBA6FA00D0F142 /* Recent+CoreDataProperties.swift in Sources */,
+				058CBA041C9A50F100CC9507 /* ytcpsocket.c in Sources */,
+				050AEDB31C8AC97F00D91ACE /* Checkbox.swift in Sources */,
+				05276C1D1C89666600052894 /* Plans.swift in Sources */,
+				05F9ADA81C843557009DA519 /* PlanManagerVC.swift in Sources */,
+				05F9ADA41C84246D009DA519 /* ParasConfigVC.swift in Sources */,
+				052266971C59CF280080E804 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052266A61C59CF280080E804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052266AF1C59CF280080E804 /* lexin_lantaiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052266B11C59CF280080E804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052266BA1C59CF280080E804 /* lexin_lantaiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		052266AC1C59CF280080E804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 052266921C59CF280080E804 /* lexin_lantai */;
+			targetProxy = 052266AB1C59CF280080E804 /* PBXContainerItemProxy */;
+		};
+		052266B71C59CF280080E804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 052266921C59CF280080E804 /* lexin_lantai */;
+			targetProxy = 052266B61C59CF280080E804 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0522669A1C59CF280080E804 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0522669B1C59CF280080E804 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		052266A21C59CF280080E804 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				052266A31C59CF280080E804 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		052266BC1C59CF280080E804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		052266BD1C59CF280080E804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		052266BF1C59CF280080E804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaiduMapAPI",
+				);
+				INFOPLIST_FILE = lexin_lantai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lexinsmart.lexin-lantai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "lexin_lantai/BMKSwiftDemo-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		052266C01C59CF280080E804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaiduMapAPI",
+				);
+				INFOPLIST_FILE = lexin_lantai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lexinsmart.lexin-lantai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "lexin_lantai/BMKSwiftDemo-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		052266C21C59CF280080E804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lexin_lantaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lexinsmart.ios.lexin-lantaiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lexin_lantai.app/lexin_lantai";
+			};
+			name = Debug;
+		};
+		052266C31C59CF280080E804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lexin_lantaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lexinsmart.ios.lexin-lantaiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lexin_lantai.app/lexin_lantai";
+			};
+			name = Release;
+		};
+		052266C51C59CF280080E804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lexin_lantaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lexinsmart.ios.lexin-lantaiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lexin_lantai;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		052266C61C59CF280080E804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = lexin_lantaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lexinsmart.ios.lexin-lantaiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lexin_lantai;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0522668E1C59CF280080E804 /* Build configuration list for PBXProject "lexin_lantai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052266BC1C59CF280080E804 /* Debug */,
+				052266BD1C59CF280080E804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		052266BE1C59CF280080E804 /* Build configuration list for PBXNativeTarget "lexin_lantai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052266BF1C59CF280080E804 /* Debug */,
+				052266C01C59CF280080E804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		052266C11C59CF280080E804 /* Build configuration list for PBXNativeTarget "lexin_lantaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052266C21C59CF280080E804 /* Debug */,
+				052266C31C59CF280080E804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		052266C41C59CF280080E804 /* Build configuration list for PBXNativeTarget "lexin_lantaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052266C51C59CF280080E804 /* Debug */,
+				052266C61C59CF280080E804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0595D24B1C71D98F00E7A641 /* lexin_lantai.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0595D24C1C71D98F00E7A641 /* lexin_lantai.xcdatamodel */,
+			);
+			currentVersion = 0595D24C1C71D98F00E7A641 /* lexin_lantai.xcdatamodel */;
+			path = lexin_lantai.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0522668B1C59CF280080E804 /* Project object */;
+}

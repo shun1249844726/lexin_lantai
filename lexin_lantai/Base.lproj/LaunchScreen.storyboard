@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lk5-li-h35"/>
+                        <viewControllerLayoutGuide type="bottom" id="ifg-QE-LbZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="xry-7g-Sih">
+                                <rect key="frame" x="268" y="124" width="65" height="77"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="蓝泰交通" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTT-Je-WaQ">
+                                <rect key="frame" x="0.0" y="251" width="600" height="97"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="woQ-RR-SJs">
+                                <rect key="frame" x="282" y="368" width="37" height="37"/>
+                                <color key="color" red="0.3790788551" green="0.65113686810000004" blue="0.92948298429999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="woQ-RR-SJs" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="03f-6I-Upo"/>
+                            <constraint firstItem="xry-7g-Sih" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="3hu-UV-D7L"/>
+                            <constraint firstItem="ifg-QE-LbZ" firstAttribute="top" secondItem="woQ-RR-SJs" secondAttribute="bottom" constant="195" id="7qe-hI-5A6"/>
+                            <constraint firstItem="xry-7g-Sih" firstAttribute="top" secondItem="lk5-li-h35" secondAttribute="bottom" constant="104" id="Bsb-eP-nlb"/>
+                            <constraint firstItem="cTT-Je-WaQ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Cl1-A6-fko"/>
+                            <constraint firstItem="cTT-Je-WaQ" firstAttribute="centerX" secondItem="xry-7g-Sih" secondAttribute="centerX" id="D7E-iH-ewJ"/>
+                            <constraint firstItem="cTT-Je-WaQ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="G9G-rX-4Ig"/>
+                            <constraint firstItem="woQ-RR-SJs" firstAttribute="top" secondItem="cTT-Je-WaQ" secondAttribute="bottom" constant="20" id="Lbn-uS-9NJ"/>
+                            <constraint firstItem="cTT-Je-WaQ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Rtt-Jc-ObH"/>
+                            <constraint firstItem="cTT-Je-WaQ" firstAttribute="top" secondItem="xry-7g-Sih" secondAttribute="bottom" constant="50" id="XGr-Wq-EhJ"/>
+                            <constraint firstAttribute="trailing" secondItem="cTT-Je-WaQ" secondAttribute="trailing" id="YcY-yC-wfU"/>
+                            <constraint firstItem="woQ-RR-SJs" firstAttribute="centerX" secondItem="cTT-Je-WaQ" secondAttribute="centerX" id="kdx-H4-H8o"/>
+                            <constraint firstItem="woQ-RR-SJs" firstAttribute="top" secondItem="cTT-Je-WaQ" secondAttribute="bottom" constant="20" id="kgI-YJ-xc0"/>
+                            <constraint firstItem="cTT-Je-WaQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="smp-nO-nFU"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon" width="65" height="77"/>
+    </resources>
+</document>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "lexin_lantai/Source/ExcutePlanVC.swift"
+            timestampString = "491292608.879105"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "538"
+            endingLineNumber = "538"
+            landmarkName = "sendCancleRoad(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "lexin_lantai.ExcutePlanVC.tickDown (lexin_lantai.ExcutePlanVC)() -&gt; ()"
+                  moduleName = "lexin_lantai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xushun/Documents/ios_project/IOS/lexin_lantai/lexin_lantai/Source/ExcutePlanVC.swift"
+                  timestampString = "491292608.921999"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "539"
+                  endingLineNumber = "539"
+                  offsetFromSymbolStart = "8412">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "lexin_lantai.ExcutePlanVC.sendCancleRoad (lexin_lantai.ExcutePlanVC)(Swift.Int) -&gt; ()"
+                  moduleName = "lexin_lantai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xushun/Documents/ios_project/IOS/lexin_lantai/lexin_lantai/Source/ExcutePlanVC.swift"
+                  timestampString = "491292608.928805"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "539"
+                  endingLineNumber = "539"
+                  offsetFromSymbolStart = "7">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc lexin_lantai.ExcutePlanVC.sendCancleRoad (lexin_lantai.ExcutePlanVC)(Swift.Int) -&gt; ()"
+                  moduleName = "lexin_lantai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xushun/Documents/ios_project/IOS/lexin_lantai/lexin_lantai/Source/ExcutePlanVC.swift"
+                  timestampString = "491292608.929148"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "539"
+                  endingLineNumber = "539"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "lexin_lantai/Source/RoadMapVC.swift"
+            timestampString = "491538570.400226"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "finishEdit(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "lexin_lantai/Source/RoadMapVC.swift"
+            timestampString = "491538570.400226"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "savePlan(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

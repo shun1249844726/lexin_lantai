@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "64601dec-5ece-a741-b25c-1f812dfb61e7++9043",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "64601dec-5ece-a741-b25c-1f812dfb61e7++9043" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "64601dec-5ece-a741-b25c-1f812dfb61e7++9043" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C6447539-BF48-452D-929F-7F74703E59DA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "64601dec-5ece-a741-b25c-1f812dfb61e7++9043" : "lexin_ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "lexin_lantai",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "lexin_lantai\/lexin_lantai.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.open-smart.cn:8080\/svn\/mimimomo",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "64601dec-5ece-a741-b25c-1f812dfb61e7++9043"
+    }
+  ]
+}
